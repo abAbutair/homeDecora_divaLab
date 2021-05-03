@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Harmattan&display=swap);
+
+///////////////////////////////////////////////
+
+
+@font-face {
+    font-family: 'ltrRegular';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'ltrMedium';
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'ltrBold';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "BellMT";
+    src: url("../fonts/BELLB.TTF");
+    font-style: normal;
+    font-display: block;
+}
+
+
+@import "_variables";
+@import "_mixins";
+@import "_partials";
+@import "_grid";
+@import "_general";
+@import "_header-footer";
+@import "_main";
+@import "_responsive";
+
+
+
+
+

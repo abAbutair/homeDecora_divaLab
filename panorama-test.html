@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+    <!-- IE compatipility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Resposive Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+    <!--  Open Graph meta tags for facebook -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <!--  Open Graph meta tags for twitter -->
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="">
+
+    <!-- Keywords Meta-->
+    <meta name="keywords" content="">
+    <!-- description Meta-->
+    <meta name="description" content="">
+
+    <!--Author Meta-->
+    <meta name="author" content="Diva-lab">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title></title>
+    <link rel="icon" href="images/"/>
+
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.4/pannellum.css">
+
+    <style>
+        #panorama{
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div id="panorama"></div>
+
+
+<script src="https://cdn.pannellum.org/2.4/pannellum.js"></script>
+
+
+<script>
+    pannellum.viewer('panorama', {
+        "type": "equirectangular",
+        "panorama": "https://pannellum.org/images/alma.jpg"
+    });
+</script>
+</body>
+
+
+</html>
